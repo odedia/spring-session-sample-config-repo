@@ -5,3 +5,7 @@ zuul:
  retryable: true
  routes:
    order-management-ms: /order-management/**
+security:
+  user:
+    name: gateway-user
+    password: password
