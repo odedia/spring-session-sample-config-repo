@@ -9,3 +9,5 @@ security:
   user:
     name: gateway-user
     password: password
+    sessions: ALWAYS
+
