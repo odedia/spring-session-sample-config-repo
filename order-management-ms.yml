@@ -2,3 +2,7 @@ spring:
   session:
     store-type: redis
     
+security:
+  user:
+    name: orders-user
+    password: another-password
