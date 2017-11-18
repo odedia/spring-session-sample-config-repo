@@ -7,7 +7,7 @@ zuul:
    order-management-ms: /order-management/**
 security:
   user:
-    name: gateway-user
+    name: gateway
     password: password
     sessions: ALWAYS
 
