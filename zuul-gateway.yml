@@ -2,15 +2,13 @@ spring:
   session:
     store-type: redis
 zuul: 
- retryable: true
- routes:
-   order-management-ms: 
-     path: /order-management/**
-     sensitive-headers: Cookie,Set-Cookie
+  retryable: true
+  routes:
+    order-management-ms: 
+      path: /order-management/**
+      sensitive-headers: Cookie,Set-Cookie
 security:
   user:
     name: gateway
     password: password
     sessions: ALWAYS
-
-zuul.routes.myservice.sensitive-headers=Cookie,Set-Cookie
