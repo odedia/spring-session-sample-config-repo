@@ -5,4 +5,4 @@ spring:
 security:
   user:
     name: orders-user
-    password: another-password
+    password: password
