@@ -4,5 +4,5 @@ spring:
     
 security:
   user:
-    name: orders-user
+    name: ms
     password: password
