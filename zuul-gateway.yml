@@ -4,9 +4,8 @@ spring:
 zuul: 
   retryable: true
   routes:
-    order-management-ms: 
-      path: /order-management/**
-  sensitiveHeaders:
+    order-management-ms: /order-management/**
+sensitiveHeaders: Authorization, Set-Cookie
 security:
   user:
     name: gateway
