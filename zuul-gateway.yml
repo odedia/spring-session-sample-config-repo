@@ -6,7 +6,7 @@ zuul:
   routes:
     order-management-ms: 
       path: /order-management/**
-  sensitiveHeaders: Set-Cookie,Authorization
+#  sensitiveHeaders: Set-Cookie,Cookie
 security:
   user:
     name: gateway
