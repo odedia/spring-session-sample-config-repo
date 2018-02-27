@@ -1,6 +1,7 @@
 spring:
   session:
     store-type: redis
+    timeout: 3600
   redis:
     port: 12000
 zuul: 
